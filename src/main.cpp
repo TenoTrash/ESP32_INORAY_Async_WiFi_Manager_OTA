@@ -628,6 +628,7 @@ const char index_html[] PROGMEM = R"rawliteral(
 </head>
 <body>
   <h2>IORAY - Prototipo</h2>
+  <h1>OTA disponible</h1>
   %BUTTONPLACEHOLDER%
 <script>function toggleCheckbox(element) {
   var xhr = new XMLHttpRequest();
