@@ -1,19 +1,16 @@
 #include <Arduino.h>
 /****************************************************************************************************************************
-  Async_AutoConnectWithFeedBackLED.ino
-  For ESP8266 / ESP32 boards
+  Async_AutoConnect de Khoi Hoang https://github.com/khoih-prog/ESPAsync_WiFiManager
+  Combinado con ArduinoOTA
+  Y un ejemplo de Async Web Server de Rui Santos 
+  https://randomnerdtutorials.com/esp32-async-web-server-espasyncwebserver-library/
+  
+  El código es extenso, pero de fácil modificación.
 
-  ESPAsync_WiFiManager is a library for the ESP8266/Arduino platform, using (ESP)AsyncWebServer to enable easy
-  configuration and reconfiguration of WiFi credentials using a Captive Portal.
+  Está pensando para una plaqueta que me regaló Rubén que tiene un par de entradas opto acopladas
+  y 3 salidas con relay.
 
-  Modified from 
-  1. Tzapu               (https://github.com/tzapu/WiFiManager)
-  2. Ken Taylor          (https://github.com/kentaylor)
-  3. Alan Steremberg     (https://github.com/alanswx/ESPAsyncWiFiManager)
-  4. Khoi Hoang          (https://github.com/khoih-prog/ESP_WiFiManager)
-
-  Built by Khoi Hoang https://github.com/khoih-prog/ESPAsync_WiFiManager
-  Licensed under MIT license
+  El led titila rápido cuando se prepara para conectar a la WiFi y lento cuando está en trabajo normal
  *****************************************************************************************************************************/
 
 #if !( defined(ESP8266) ||  defined(ESP32) )
