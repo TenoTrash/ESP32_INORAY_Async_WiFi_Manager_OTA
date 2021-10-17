@@ -610,7 +610,7 @@ AsyncWebServer server(80);
 const char index_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE HTML><html>
 <head>
-  <title>RubenIoT - Prototipo</title>
+  <title>IORAY - Prototipo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="data:,">
   <style>
@@ -627,7 +627,7 @@ const char index_html[] PROGMEM = R"rawliteral(
   </style>
 </head>
 <body>
-  <h2>RubenIoT - Prototipo</h2>
+  <h2>IORAY - Prototipo</h2>
   <h1>OTA disponible</h1>
   %BUTTONPLACEHOLDER%
 <script>function toggleCheckbox(element) {
