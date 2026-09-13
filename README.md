@@ -22,9 +22,7 @@ Saludos y gracias!!!
 
 Si esta información te resulta útil e interesante, invitame un cafecito!!!
 
-
 Desde fuera de Argentina en:
-
 
 O podés colaborar comprando algunos de los objetos creados en los tutoriales del blog:
 https://listado.mercadolibre.com.ar/_Envio_MercadoEnvios_CustId_13497891
